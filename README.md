@@ -1,1 +1,5 @@
-
+c = input("How many cans are in the package? ")
+d = input("How many packages do you have? ")
+c = int(c)
+d = int(d)
+print("You should have",c * d,"cans in total.")
