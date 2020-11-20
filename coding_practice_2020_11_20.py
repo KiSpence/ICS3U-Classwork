@@ -18,7 +18,7 @@ h = input ("What is the height of the prism? ")
 l = int (l)
 w = int (w)
 h = int (h)
-print("The prism is",l*w*h, "units cubed.")
+print("The prism is",l * w * h, "units cubed.")
 print("\n")
 
 #4
