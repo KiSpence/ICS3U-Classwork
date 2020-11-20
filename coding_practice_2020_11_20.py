@@ -25,5 +25,5 @@ print("\n")
 question = input("Did you mute the teacher when you joined the Google Meet? ")
 if question == "Yes": 
 	print("That's probably not a good idea.")
-if question == "No":
+else:
 	print("Okay. Good.")
