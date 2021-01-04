@@ -1,0 +1,20 @@
+#81
+side_1 = int(input("Enter one of the shorter triange side lengths: "))
+side_2 = int(input("Enter the other side length: "))
+
+print(side_1 ** 2 + side_2 ** 2 / 2)
+
+#82
+distance = int(input("How long was your trip, in meters? ")
+print(distance * 0.25 + 4)
+
+#83
+items = int(input("How many items did you buy? "))
+print(items * 2.95 + 10.95)
+
+#84
+o = int("Enter a number: ")
+t = int("Enter another number: ")
+h = int("Enter one more number: ")
+
+print(median(o,t,h))
