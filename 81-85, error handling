@@ -1,0 +1,42 @@
+#81
+while True:
+	try:
+		side_1 = int(input("Enter one of the shorter triange side lengths: "))
+		side_2 = int(input("Enter the other side length: "))
+		break
+	except ValueError:
+		print("Enter a numerical value.")
+	
+	print(side_1 ** 2 + side_2 ** 2 / 2)
+
+#82
+while True:
+	try:
+		distance = int(input("How long was the trip, in meters? ")
+		break
+	except ValueError:
+		print("Make sure you have entered a numeric value.")
+
+	print(distance * 0.25 + 4)
+#83
+while True:
+	try:
+		items = int(input("How many items did you buy? "))
+		
+		break
+	except ValueError:
+	print("Please enter a numeric value.")
+
+	print(items * 2.95 + 10.95)
+
+#84
+while True:
+	try:
+		o = int("Enter a number: ")
+		t = int("Enter another number: ")
+		h = int("Enter one more number: ")
+		break
+		except ValueError:
+			print("Please enter three numeric values.")
+
+	print(median(o,t,h))
