@@ -1,0 +1,21 @@
+def main():
+	word = int(input("Type a word that needs centering: "))
+
+	while True:
+		try:
+			width = int(input("Enter the width of the terminal: "))
+			break
+		except ValueError:
+			print("Please enter a valid number: ")
+
+		centered_string = center_string(word, width)
+
+		print(f"{centered_string}")
+
+def center_string(word: str, width, int):
+	left_spaces = (width - len(word)) / 2
+	return 
+ 
+
+if __name__ == "__main__":
+	main()
